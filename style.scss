@@ -979,6 +979,12 @@ hr {
    .descr__text{
       text-align: center;
    }
+
+   .other__services{
+      & > ul > li{
+         transform: translate(0, 0);
+      }
+   } 
 }
 
 @media (max-width: 375px) {
